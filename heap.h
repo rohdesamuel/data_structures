@@ -1,6 +1,8 @@
 /**
 * Author: Sam Rohde
 * Free to use and distribute only if you add me in the credits :3
+* 
+* The "typename _Ptr" is a comparator functor. By default this is a min_heap with the less-than functor
 */
 
 
