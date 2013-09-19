@@ -2,7 +2,15 @@
 * Author: Sam Rohde
 * Free to use and distribute only if you add me in the credits :3
 * 
+* The "typename _Kty" is the key
+* The "typename _Ty" is the value
 * The "typename _Ptr" is a comparator functor. By default this is a min_heap with the less-than functor
+* 
+* You can either create an empty heap with nothing in it, or give it a vector<pair<_Kty, _Ty> > as an argument
+* and the heap will automatically build in O(n) time. 
+* 
+* push(pair<>) pushes into the heap
+* pop() pop off the heap, undefined behavior for empty heap
 */
 
 
