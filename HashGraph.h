@@ -5,9 +5,9 @@
 * O(1) Edge Lookup
 * O(1) Insert Edge
 * O(1) Insert Vertex
-* O(|in|) Get Input Vertices
-* O(|out|) Get Output Vertices
-* O(|in| + |out|) Get Adjacent Vertices
+* O(|in|) Get Input Vertices (Not yet completed, but starting code is there)
+* O(|out|) Get Output Vertices (Not yet completed, but starting code is there)
+* O(|in| + |out|) Get Adjacent Vertices (Not yet completed)
 *
 * Edge<Dim> holds a source and destination vertex
 * Point<Dim> is a vertex
