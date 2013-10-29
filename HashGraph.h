@@ -9,6 +9,8 @@
 * O(|out|) Get Output Vertices
 * O(|in| + |out|) Get Adjacent Vertices
 *
+* Edge<Dim> holds a source and destination vertex
+* Point<Dim> is a vertex
 */
 
 #ifndef HASH_GRAPH__H
